@@ -23,4 +23,4 @@ jobs:
         fi
     - name: Run unittests
       run: |
-        python -m unittest tests/lab1/test*
+        python -m unittest discover

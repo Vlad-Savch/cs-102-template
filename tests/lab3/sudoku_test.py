@@ -1,10 +1,6 @@
 import unittest
-from src.lab3.sudoku import group, get_row, get_col, get_block, solve, find_empty_positions, find_possible_values
-
-
-def read_sudoku(filename):
-    with open(filename, 'r') as f:
-        return [list(line.strip()) for line in f.readlines()]
+from src.lab3.sudoku import (group, get_row, get_col, get_block, solve, find_empty_positions,
+                             find_possible_values, read_sudoku)
 
 
 class TestSudoku(unittest.TestCase):
